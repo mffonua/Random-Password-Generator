@@ -17,7 +17,7 @@ function generatePassword(){
     window.alert("Your password length must be between 8-128 Characters")
     return
   }
-
+//Prompts for Number, Special Characters, UpperCase Letters and LowerCase Letter.
   var userRequestsNumber = window.confirm("Do you want Numbers in your password? (ex. 1,2,3) ")
   var userRequestsSpecialChar = window.confirm("Do you want Special Characters in your password? (ex. !,@,$) ")
   var userRequestsUpperCaseLet = window.confirm("Do you want Upper Case Letters in your password? (ex. A,B,C) ")
