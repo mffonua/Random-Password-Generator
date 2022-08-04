@@ -74,7 +74,7 @@ function generatePassword(){
     var generatedPassword = ""
 
     for (var i = 0; i < passLength; i++){
-       var randomList = getRandomItem(optionsCart)// Reason -1 is because array starts at 0
+       var randomList = getRandomItem(optionsCart)
        var randomChar= getRandomItem(randomList)
        generatedPassword += randomChar
     }
