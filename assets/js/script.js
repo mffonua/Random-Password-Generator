@@ -18,6 +18,11 @@ function generatePassword(){
     return
   }
 
+  var userRequestsNumber = window.confirm("Do you want Numbers in your password? (ex. 1,2,3) ")
+  var userRequestsSpecialChar = window.confirm("Do you want Special Characters in your password? (ex. !,@,$) ")
+  var userRequestsUpperCaseLet = window.confirm("Do you want Upper Case Letters in your password? (ex. A,B,C) ")
+  var userRequestsLowerCaseLet = window.confirm("Do you want Lower Case Letters in your password? (ex. a,b,c) ")
+
 }
 //Creator Note: parseInt tries to turn a string into number
 
