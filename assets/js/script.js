@@ -16,22 +16,6 @@ function randomInt(min, max){
 
 function generatePassword(){
 
-  // var userInput = window.prompt("How long would you like your password to be? (8-128 characters)") 
-  // var passLength = parseInt(userInput) //Creator Note: parseInt tries to turn a string into number
-
-  // if(isNaN(passLength)) {
-  //   window.alert("You did not enter a number, Please Try Again ! ")
-  //   return 
-  // }
-  // // Creator Note : Reason why the two "if" statements were not combined because
-  // // if they are false I wouldnt know which one is.
-
-  // if (passLength < 8 || passLength > 128){
-  //   window.alert("Your password length must be between 8-128 Characters")
-  //   return
-  // }
-
-
 //Loop
   while (true){
       var userInput = window.prompt("How long would you like your password to be? (8-128 characters)") 
